@@ -1,5 +1,5 @@
 # ipbash  - functions for work with IP and subnets on clear bash
-
+Parce, convert, merge ip and subnets.
 ## Function list: 
 
 ### ENTRYIP IP1[/mask1] IP2[/mask2]
