@@ -1,8 +1,10 @@
 # ipbash  - functions for work with IP on clear bash
 
+### It's slow, but it works!
+
 ## function list: 
 
-function ENTRYIP() { # entrance one subnet diapazone  into another
+function ENTRYIP() { # entrance one subnet diapazone into another
 
 function MERGESUBNETS(){ # merge equal neighbor subnets
 
@@ -33,3 +35,11 @@ function SUBNET(){ # subnet of ip
 function CHECKIP(){ # minimal check ip by octet and subnet values
 
 function _PREPAREIP(){ #separate ip octets and mask by space
+
+## Test usage:
+
+```download ipbash.sh and test_ipbash.sh into one folder
+
+**chmod +x test_ipbash.sh
+
+./test_ipbash.sh**```
