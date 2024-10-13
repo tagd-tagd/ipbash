@@ -2,7 +2,9 @@
 
 ## function list: 
 
-function _PREPAREIP(){ #separate ip octets and mask by space
+function ENTRYIP() { # entrance one subnet diapazone  into another
+
+function MERGESUBNETS(){ # merge equal neighbor subnets
 
 function IP2LONG(){ #convert ip to decimal number
 
@@ -28,8 +30,6 @@ function LASTIP(){ # last subnet ip
 
 function SUBNET(){ # subnet of ip
 
-function ENTRYIP() { # entrance one subnet diapazone  into another
-
-function MERGESUBNETS(){ # merge equal neighbor subnets
-
 function CHECKIP(){ # minimal check ip by octet and subnet values
+
+function _PREPAREIP(){ #separate ip octets and mask by space
