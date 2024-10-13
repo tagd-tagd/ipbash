@@ -1,4 +1,4 @@
-# ipbash  - functions for work with IP on clear bash
+# ipbash  - functions for work with IP and subnets on clear bash
 
 ## Function list: 
 
