@@ -25,35 +25,47 @@ Errorlevel:
 ### IP2LONG IP[/mask]
 
 convert ip to decimal number. Result:
-* IP in decimal notation
+* "IP" in decimal notation
 
 ### IP2HEX IP[/mask]
 convert ip to hexadecimal number. Result:
-* IP in hexadecimal notation
+* "IP" in hexadecimal notation
 
 ### IP2BIN  IP[/mask]
-convert ip to binary number. Result
-* IP in binary notation
+convert ip to binary number. Result:
+* "IP" in binary notation
 
 ### LONG2IP NUM
-convert decimal number to ip. Result
-* IP
+convert decimal number to ip. Result:
+* "IP"
 
 ### ONLYIP IP[/mask]
-return ip without mask
-* IP
+return ip without mask. Result:
+* "IP"
 
-function IPWITHMASK(){ # return ip with mask (default 32)
+### IPWITHMASK IP[/mask]
+return ip with mask (default 32). Result:
+* "IP/mask"
 
-function ONLYMASK(){ # return ip mask (default 32)
+### ONLYMASK IP[/mask]
+return mask of ip (default 32). Result:
+* "mask"
 
-function FIRSTIPLONG(){ # first subnet ip as number
+### FIRSTIPLONG IP[/mask]
+first SUBNET ip as number. Result:
+* "IP" in decimal notation
 
-function FIRSTIP(){ # first subnet ip
+### FIRSTIP
+first SUBNET ip. Result:
+* "IP"
 
-function LASTIPLONG(){ # last subnet ip as number
+### LASTIPLONG
+last SUBNET ip as number. Result:
+* "IP" in decimal notation
 
-function LASTIP(){ # last subnet ip
+### LASTIP
+last SUBNET ip. Result:
+* "IP"
 
 function SUBNET(){ # subnet of ip
 
