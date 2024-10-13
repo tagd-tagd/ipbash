@@ -12,7 +12,7 @@ entrance one subnet diapazone into another. Result:
 * "==" subnet IP1[/mask1] and subnet IP2[/mask2] equal
 * "!=" else variants
 
-### MERGESUBNETS IP1[/mask1] into IP2[/mask2]
+### MERGESUBNETS IP1[/mask1] IP2[/mask2]
 merge equal neighbor subnets. Result:
 * "IP/(mask-1)"
 * ""
