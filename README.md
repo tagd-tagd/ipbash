@@ -1,6 +1,6 @@
 # ipbash  - functions for work with IP on clear bash
 
-** It's slow, but it works!
+** It's slow, but it works! **
 
 ## function list: 
 
