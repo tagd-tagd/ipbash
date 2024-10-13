@@ -1,4 +1,4 @@
-# ipbash  - библиотека для работы с  IP  адресами на  bash
+# ipbash  - functions for work with IP on clear bash
 
 ## function list: 
 
