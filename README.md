@@ -1,7 +1,5 @@
 # ipbash  - functions for work with IP on clear bash
 
-It's slow, but it works!
-
 ## Function list: 
 
 ### ENTRYIP IP1[/mask1] IP2[/mask2]
