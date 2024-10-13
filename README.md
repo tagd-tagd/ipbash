@@ -1,6 +1,6 @@
 # ipbash  - functions for work with IP on clear bash
 
-** It's slow, but it works! **
+It's slow, but it works!
 
 ## function list: 
 
@@ -38,8 +38,8 @@ function _PREPAREIP(){ #separate ip octets and mask by space
 
 ## Test usage:
 
-```download ipbash.sh and test_ipbash.sh into one folder
+download ipbash.sh and test_ipbash.sh into one folder
 
-**chmod +x test_ipbash.sh
+chmod +x test_ipbash.sh
 
-./test_ipbash.sh**```
+./test_ipbash.sh
