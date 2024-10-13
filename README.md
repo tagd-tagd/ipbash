@@ -1,6 +1,6 @@
-#ipbash  - библиотека для работы с  IP  адресами на  bash
+# ipbash  - библиотека для работы с  IP  адресами на  bash
 
-##function list: 
+## function list: 
 
 function _PREPAREIP(){ #separate ip octets and mask by space
 
