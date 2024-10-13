@@ -4,19 +4,44 @@ It's slow, but it works!
 
 ## function list: 
 
-function ENTRYIP() { # entrance one subnet diapazone into another
+### ENTRYIP IP1[/mask1] IP2[/mask2]
 
-function MERGESUBNETS(){ # merge equal neighbor subnets
+entrance one subnet diapazone into another. Result:
+* "->"  IP1[/mask1] into IP2[/mask2]
+* "<-"  IP2[/mask2] into IP1[/mask1]
+* "==" subnet IP1[/mask1] and subnet IP2[/mask2] equal
+* "!=" else variants
 
-function IP2LONG(){ #convert ip to decimal number
+### MERGESUBNETS IP1[/mask1] into IP2[/mask2]
+merge equal neighbor subnets. Result:
+* "IP/(mask-1)"
+* ""
 
-function IP2HEX(){ #convert ip to hexadecimal number
+Errorlevel:
+* 0 - all OK
+* 1 - subnets not equal
+* 2 - both ip in one subnet  
 
-function IP2BIN(){ #convert ip to binary number
+### IP2LONG IP[/mask]
 
-function LONG2IP(){ # convert decimal number to ip
+convert ip to decimal number. Result:
+* IP in decimal notation
 
-function ONLYIP(){ # return ip without mask
+### IP2HEX IP[/mask]
+convert ip to hexadecimal number. Result:
+* IP in hexadecimal notation
+
+### IP2BIN  IP[/mask]
+convert ip to binary number. Result
+* IP in binary notation
+
+### LONG2IP NUM
+convert decimal number to ip. Result
+* IP
+
+### ONLYIP IP[/mask]
+return ip without mask
+* IP
 
 function IPWITHMASK(){ # return ip with mask (default 32)
 
@@ -40,6 +65,6 @@ function _PREPAREIP(){ #separate ip octets and mask by space
 
 download ipbash.sh and test_ipbash.sh into one folder
 
-chmod +x test_ipbash.sh
+**chmod +x test_ipbash.sh**
 
-./test_ipbash.sh
+**./test_ipbash.sh**
