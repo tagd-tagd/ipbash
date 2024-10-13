@@ -2,7 +2,7 @@
 
 It's slow, but it works!
 
-## function list: 
+## Function list: 
 
 ### ENTRYIP IP1[/mask1] IP2[/mask2]
 
@@ -55,23 +55,34 @@ return mask of ip (default 32). Result:
 first SUBNET ip as number. Result:
 * "IP" in decimal notation
 
-### FIRSTIP
+### FIRSTIP  IP[/mask]
 first SUBNET ip. Result:
 * "IP"
 
-### LASTIPLONG
+### LASTIPLONG  IP[/mask]
 last SUBNET ip as number. Result:
 * "IP" in decimal notation
 
-### LASTIP
+### LASTIP IP[/mask]
 last SUBNET ip. Result:
 * "IP"
 
-function SUBNET(){ # subnet of ip
+### SUBNET IP[/mask]
+subnet of ip. Result:
+* "IP/mask"
 
-function CHECKIP(){ # minimal check ip by octet and subnet values
+### CHECKIP  IP[/mask]
+minimal check ip by octet and subnet values (not format). Result:
+Errorlevel:
+* 0 - All Ok
+* 1 - bad number in IP
+* 2 - bad mask number
 
-function _PREPAREIP(){ #separate ip octets and mask by space
+### _PREPAREIP aaa.bbb.ccc.ddd/mm
+separate ip octets and mask by space. Return:
+* "aaa bbb ccc ddd mm"
+
+<HR>
 
 ## Test usage:
 
