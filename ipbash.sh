@@ -5,9 +5,8 @@ D2B=({0..1}{0..1}{0..1}{0..1}{0..1}{0..1}{0..1}{0..1})
 #_PREPAREIP 192.168.1.7
 #192.168.1.7 32
 function _PREPAREIP(){ #separate ip octets and mask by space 
-  local K=${1//./ }
-  K=${K/\// }
-  set -- $K 32
+local K="${1//./ } 32"
+set -- ${K/\// }
   echo $1 $2 $3 $4 $5
 }
 #IP2LONG 192.168.1.7/24
